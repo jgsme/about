@@ -1,0 +1,15 @@
+doctype
+html
+  head
+    meta(charset='utf-8')
+    meta(name='google-site-verification', content='0JqQ0d9sutLDb5WthoHzr45KrNPuGlQgZchmUE0R2Us')
+    title jgs.me
+    link(href='http://fonts.googleapis.com/css?family=Lato:100', rel='stylesheet', type='text/css')
+    link(href='index.css', rel="stylesheet", type='text/css')
+  body
+    h1 #{name.aka}
+    h2 #{name.fullname}
+    ul
+      for link in links
+        li
+          a(href="#{link.url}") #{link.title}

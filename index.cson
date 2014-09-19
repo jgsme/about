@@ -1,0 +1,49 @@
+name:
+  fullname: 'Takaya Kobayashi'
+  aka: 'Jigsaw'
+links: [
+  {
+    title: 'Blog'
+    url: 'http://blog.jgs.me'
+  }
+  {
+    title: 'Diary'
+    url: 'http://diary.jgs.me'
+  }
+  {
+    title: 'Tumblr'
+    url: 'http://tumblr.jgs.me'
+  }
+  {
+    title: 'Github'
+    url: 'http://github.com/e-jigsaw'
+  }
+  {
+    title: 'Twitter'
+    url: 'http://twitter.com/neo6120'
+  }
+  {
+    title: 'Steam'
+    url: 'http://steamcommunity.com/profiles/76561197993303918'
+  }
+  {
+    title: 'Book'
+    url: 'http://book.akahoshitakuya.com/u/81576'
+  }
+  {
+    title: 'last.fm'
+    url: 'http://last.fm/user/neo6120'
+  }
+  {
+    title: 'Facebook'
+    url: 'http://fb.me/takaya.kobayashi'
+  }
+  {
+    title: 'Foursquare'
+    url: 'http://foursquare.com/neo6120'
+  }
+  {
+    title: 'about.me'
+    url: 'http://about.me/jigsaw'
+  }
+]
