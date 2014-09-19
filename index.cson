@@ -11,6 +11,10 @@ links: [
     url: 'http://diary.jgs.me'
   }
   {
+    title: 'Develop'
+    url: 'http://dev.jgs.me'
+  }
+  {
     title: 'Tumblr'
     url: 'http://tumblr.jgs.me'
   }
