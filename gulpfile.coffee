@@ -6,7 +6,7 @@ data = require 'gulp-data'
 cnct = require 'gulp-connect'
 
 paths =
-  static: ['src/CNAME', 'src/robots.txt']
+  static: ['src/CNAME', 'src/robots.txt', 'src/favicons/*']
   data: 'src/index.cson'
   styl: 'src/*.styl'
   dest: 'build'
