@@ -23,6 +23,7 @@ gulp.task 'styl', ->
 gulp.task 'jade', ->
   gulp.src paths.data
     .pipe cson()
+    .pipe gulp.dest paths.dest
     .pipe jade 'src/index.jade'
     .pipe data (file)->
       file.path = file.path.replace /json$/, 'html'
