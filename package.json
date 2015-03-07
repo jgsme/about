@@ -20,5 +20,9 @@
     "gulp-data": "^1.2.0",
     "gulp-jade-template": "0.0.6",
     "gulp-stylus": "^2.0.0"
+  },
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
   }
 }
