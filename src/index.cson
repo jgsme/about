@@ -36,17 +36,20 @@ links: [
   title: 'Foursquare'
   url: 'http://foursquare.com/neo6120'
 ,
-  title: 'about.me'
-  url: 'http://about.me/jigsaw'
+  title: 'More...'
+  url: '/more.html'
 ]
 
-activity: [
-  2015: [
+activities: [
+  year: 2015
+  data: [
     type: 'Article adtech.cyberagent.io - Scala.js'
     title: '【Scala.jsではじめるScala道】第二回・DOMとscalatagsであけおめ'
     link: 'http://adtech.cyberagent.io/scalablog/?p=414'
   ]
-  2014: [
+,
+  year: 2014
+  data: [
     type: 'LT session - 東京Node学園祭2014'
     title: 'node.jsでビッグデータを処理する'
     link: 'https://www.youtube.com/watch?v=OGvamugB5Hg'

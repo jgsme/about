@@ -1,0 +1,14 @@
+extends layout
+
+block contents
+  h3 Activity
+  ul.activities
+    for activity in activities
+      li
+        h4 #{activity.year}
+        ul
+          for content in activity.data
+            li
+              p.type #{content.type}
+              p.title
+                a(href='#{content.link}') #{content.title}

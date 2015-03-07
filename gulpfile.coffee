@@ -1,11 +1,9 @@
 gulp = require 'gulp'
-cson = require 'gulp-cson'
 styl = require 'gulp-stylus'
-jade = require 'gulp-jade-template'
-data = require 'gulp-data'
 cnct = require 'gulp-connect'
+page = require './gulp/helper/page'
 
-paths =
+exports.paths = paths =
   static: ['src/CNAME', 'src/robots.txt', 'src/favicons/*']
   data: 'src/index.cson'
   styl: 'src/*.styl'
@@ -20,21 +18,15 @@ gulp.task 'styl', ->
     .pipe styl()
     .pipe gulp.dest paths.dest
 
-gulp.task 'jade', ->
-  gulp.src paths.data
-    .pipe cson()
-    .pipe gulp.dest paths.dest
-    .pipe jade 'src/index.jade'
-    .pipe data (file)->
-      file.path = file.path.replace /json$/, 'html'
-      file
-    .pipe gulp.dest paths.dest
+gulp.task 'index', -> page 'src/index.jade'
+gulp.task 'more', -> page 'src/more.jade'
 
-gulp.task 'default', ['copy', 'styl', 'jade']
-gulp.task 'serve', ['default'], ->
+gulp.task 'default', ['copy', 'styl', 'index', 'more']
+gulp.task 'watch', ['default'], ->
+  gulp.watch 'src/*', ['default']
   cnct.server
     root: paths.dest
-    port: 8082
+    port: process.env.PORT || 3000
 gulp.task 'deploy', ->
   gulp.src './build/**/*'
     .pipe deploy

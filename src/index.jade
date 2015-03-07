@@ -1,7 +1,7 @@
 extends layout
 
 block contents
-  ul
+  ul.links
     for link in links
       li
         a(href="#{link.url}") #{link.title}
