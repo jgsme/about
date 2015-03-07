@@ -1,6 +1,7 @@
 gulp = require 'gulp'
 styl = require 'gulp-stylus'
 cnct = require 'gulp-connect'
+deploy = require 'gulp-gh-pages'
 page = require './gulp/helper/page'
 
 exports.paths = paths =
