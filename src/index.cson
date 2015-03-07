@@ -43,6 +43,14 @@ links: [
 activities: [
   year: 2015
   data: [
+    type: 'Staff - Frontrend Conference'
+    title: 'http://frontrend.github.io/conference/'
+    link: 'http://frontrend.github.io/conference/'
+  ,
+    type: 'LT session - 歌舞伎座.tech#6'
+    title: 'Riot.js 現状共有'
+    link: '#'
+  ,
     type: 'Article adtech.cyberagent.io - Scala.js'
     title: '【Scala.jsではじめるScala道】第二回・DOMとscalatagsであけおめ'
     link: 'http://adtech.cyberagent.io/scalablog/?p=414'
@@ -61,5 +69,20 @@ activities: [
     type: 'Article adtech.cyberagent.io - Scala.js'
     title: '【Scala.jsではじめるScala道】第一回・HelloWorld'
     link: 'http://adtech.cyberagent.io/scalablog/?p=295'
+  ,
+    type: 'Staff - Github Kaigi'
+    title: 'Githubkaigiのスタッフをしました'
+    link: 'http://blog.jgs.me/post/87499743179/githubkaigi'
+  ,
+    type: 'Staff/Speaker - CAMPHOR- x kosenconf'
+    title: 'CAMPHOR- x #kosenconf を開催しました'
+    link: 'http://blog.jgs.me/post/73272422016/held-kosenconf-083camphor'
+  ]
+,
+  year: 2013
+  data: [
+    type: 'Staff/Speaker - 関西 node.js 寺子屋'
+    title: '関西node.js寺子屋を開催しました'
+    link: 'http://blog.jgs.me/post/54731955384/kansai-node-js-terakoya-1'
   ]
 ]
