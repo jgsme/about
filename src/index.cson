@@ -43,6 +43,10 @@ links: [
 activities: [
   year: 2015
   data: [
+    type: 'Staff - カナザワ映画祭2015'
+    title: 'カナザワ映画祭2015｜かなざわ映画の会'
+    link: 'http://www.eiganokai.com/event/filmfes2015'
+  ,
     type: 'Staff - Frontrend Conference'
     title: 'http://frontrend.github.io/conference/'
     link: 'http://frontrend.github.io/conference/'
