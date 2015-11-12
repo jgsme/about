@@ -1,30 +1,41 @@
 {
-  "name": "about",
+  "name": "jgs.me",
   "version": "1.0.0",
   "description": "about me",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jgsme/about.git"
+    "url": "https://github.com/jgsme/jgs.me.git"
   },
   "author": "jigsaw (http://jgs.me)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jgsme/about/issues"
+    "url": "https://github.com/jgsme/jgs.me/issues"
   },
-  "homepage": "https://github.com/jgsme/about",
+  "homepage": "https://github.com/jgsme/jgs.me",
   "devDependencies": {
-    "coffee-script": "^1.10.0",
-    "gulp": "^3.9.0",
-    "gulp-connect": "^2.2.0",
-    "gulp-cson": "^0.3.0",
-    "gulp-data": "^1.2.0",
-    "gulp-gh-pages": "^0.5.2",
-    "gulp-jade-template": "0.0.7",
-    "gulp-stylus": "^2.0.7"
+    "@jigsaw/lson": "^2.0.2",
+    "gulp-stylus": "^2.0.7",
+    "jade": "^1.11.0",
+    "livescript": "^1.4.0",
+    "node-static": "^0.7.7",
+    "npm-run-all": "^1.2.13",
+    "stylus": "^0.52.4"
+  },
+  "config": {
+    "DEST": "build",
+    "PORT": "3000"
   },
   "scripts": {
-    "build": "gulp",
-    "watch": "gulp watch",
-    "deploy": "gulp deploy"
+    "before": "mkdir -p $npm_package_config_DEST",
+    "build": "npm-run-all before -p build:copy build:compile",
+    "build:copy": "npm-run-all -p build:copy:*",
+    "build:copy:CNAME": "cp src/CNAME $npm_package_config_DEST",
+    "build:copy:robots": "cp src/robots.txt $npm_package_config_DEST",
+    "build:copy:favicons": "cp -r src/favicons/ $npm_package_config_DEST",
+    "build:compile": "npm-run-all -p build:compile:*",
+    "build:compile:stylus": "stylus src/*.styl --out $npm_package_config_DEST -c",
+    "build:compile:jade": "lsc scripts/generate.ls",
+    "clean": "rm -rf $npm_package_config_DEST",
+    "serve": "static -p $npm_package_config_PORT $npm_package_config_DEST"
   }
 }
