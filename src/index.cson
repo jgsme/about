@@ -43,6 +43,10 @@ links: [
 activities: [
   year: 2015
   data: [
+    type: 'Article gihyo.jp - 東京Node学園祭2015'
+    title: 'Domenic Denicola氏，JavaScriptの今を紹介 ～東京Node学園祭2015 基調講演：レポート｜gihyo.jp … 技術評論社'
+    link: 'http://gihyo.jp/news/report/2015/11/1201'
+  ,
     type: 'Staff - カナザワ映画祭2015'
     title: 'カナザワ映画祭2015｜かなざわ映画の会'
     link: 'http://www.eiganokai.com/event/filmfes2015'
