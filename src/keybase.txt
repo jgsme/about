@@ -1,0 +1,64 @@
+==================================================================
+https://keybase.io/jgs
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jgs.me
+  * I am jgs (https://keybase.io/jgs) on keybase.
+  * I have a public key ASAoGGW3M3qNl9vSjaqiroxzJIW_vGe5kpl-hE0QGAvhGwo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0120281865b7337a8d97dbd28daaa2ae8c732485bfbc67b992997e844d10180be11b0a",
+            "host": "keybase.io",
+            "kid": "0120281865b7337a8d97dbd28daaa2ae8c732485bfbc67b992997e844d10180be11b0a",
+            "uid": "0329aacdf55cb66af6b39564ac509219",
+            "username": "jgs"
+        },
+        "service": {
+            "hostname": "jgs.me",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.16"
+    },
+    "ctime": 1470370509,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1470370485,
+        "hash": "a47075fd3c4f04ffcb13735519ea5c435b5ddc1b13ad5f5addac8557a98dcbda155509a08c5e9f1f3208e89b61f84a62bb6b48873542a5c22dadf6ec7833
+ea34",
+        "seqno": 560218
+    },
+    "prev": "d1d9dae348e07e7de779417cb5ad7e229769c9040dd74e80ad72e524a0de0946",
+    "seqno": 8,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgKBhltzN6jZfb0o2qoq6McySFv7xnuZKZfoRNEBgL4RsKp3BheWxvYWTFAuh7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9ra
+WQiOiIwMTIwMjgxODY1YjczMzdhOGQ5N2RiZDI4ZGFhYTJhZThjNzMyNDg1YmZiYzY3Yjk5Mjk5N2U4NDRkMTAxODBiZTExYjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMT
+IwMjgxODY1YjczMzdhOGQ5N2RiZDI4ZGFhYTJhZThjNzMyNDg1YmZiYzY3Yjk5Mjk5N2U4NDRkMTAxODBiZTExYjBhIiwidWlkIjoiMDMyOWFhY2RmNTVjYjY2YWY2YjM5NTY0YWM1MDk
+yMTkiLCJ1c2VybmFtZSI6ImpncyJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiamdzLm1lIiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZl
+cnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4xNiJ9LCJjdGltZSI6MTQ3MDM3MDUwOSwiZXhwaXJlX2luIjo1MDQ1N
+zYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDcwMzcwNDg1LCJoYXNoIjoiYTQ3MDc1ZmQzYzRmMDRmZmNiMTM3MzU1MTllYTVjNDM1YjVkZGMxYjEzYWQ1ZjVhZGRhYzg1NTdhOT
+hkY2JkYTE1NTUwOWEwOGM1ZTlmMWYzMjA4ZTg5YjYxZjg0YTYyYmI2YjQ4ODczNTQyYTVjMjJkYWRmNmVjNzgzM2VhMzQiLCJzZXFubyI6NTYwMjE4fSwicHJldiI6ImQxZDlkYWUzNDh
+lMDdlN2RlNzc5NDE3Y2I1YWQ3ZTIyOTc2OWM5MDQwZGQ3NGU4MGFkNzJlNTI0YTBkZTA5NDYiLCJzZXFubyI6OCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAnRJ61SQ0V/wNYsnEjHkyC
+UIAWtcDpG0EKTBTBPSo1LtvhEP/2fWGQf8lgLNx7Fqd0z/wUhcWpXNLEVJsnFH0OqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgIbb0MHbp9MY+aQMaBNJKVeV2yFSvCZWQS+8XR
+NvJGSWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jgs
+
+==================================================================
