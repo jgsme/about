@@ -32,7 +32,7 @@
     "build:copy:CNAME": "cp src/CNAME $npm_package_config_DEST",
     "build:copy:robots": "cp src/robots.txt $npm_package_config_DEST",
     "build:copy:favicons": "cp -r src/favicons/* $npm_package_config_DEST",
-    "build:bopy:keybase": "cp src/keybase.txt $npm_package_config_DEST",
+    "build:copy:keybase": "cp src/keybase.txt $npm_package_config_DEST",
     "build:compile": "npm-run-all -p build:compile:*",
     "build:compile:stylus": "stylus src/*.styl --out $npm_package_config_DEST -c",
     "build:compile:jade": "lsc scripts/generate.ls",
